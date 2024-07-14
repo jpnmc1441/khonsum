@@ -305,6 +305,7 @@ background-color: rgba(0,0,0,0.8);
 	text-align:center;	
 }
 .poster{
+	border:1px solid pink;
     width: 160px;
     display: inline-block;
     margin: 4px;
