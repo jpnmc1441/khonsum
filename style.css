@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Tangerine:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ruslan+Display&display=swap');
 
+
 .pointer{
     max-height: 70px;
     width: auto;
@@ -237,7 +238,7 @@ background-color: rgba(0,0,0,0.8);
 .sweet, .stuff{
  /* border:1px solid red;*/
    width:100%;
-   font-family: 'Exo 2', sans-serif;
+  font-family: 'Rampart One', cursive;
   display:block;
 }
 
@@ -282,26 +283,39 @@ background-color: rgba(0,0,0,0.8);
 
 
 #glow{
- font-family: 'Ruslan Display', cursive;
-   position: relative;
-    display: block;
-    padding: 20px;
-    margin: 60px auto 0px;
-    color: rgb(233, 116, 81);
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 0.5s;
-    letter-spacing: 4px;
-    overflow: hidden;
-    width: 80%;
+	position: relative;
+    font-family: 'Ruslan Display', cursive;
+    border-radius: 50px;
+    padding: 10px;
+    display: inline-grid;
     text-align: center;
-    max-width: 500px;
-    backdrop-filter: blur(10px);
+    margin: 5px;
+    color: rgb(233, 116, 81);
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    backdrop-filter: blur(2px);
     box-shadow: 1px 5px 23px 0px rgb(8 1 1 / 40%);
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.5);
+  
 }
 
-a:hover{
+.socialsection{
+	border:1px solid white;
+	text-align:center;	
+}
+.poster{
+    width: 160px;
+    display: inline-block;
+    margin: 4px;
+    min-height: 220px;
+    background-position: center;
+    background-size: 200px;
+    background-repeat: no-repeat;
+	
+}
+
+/*a:hover{
     
        color: rgb(255, 172, 28);
     box-shadow: 1px 5px 23px 0px rgb(8 11 1 / 89%);
@@ -312,7 +326,7 @@ a:hover{
 }
 a:nth-child(2){
     filter: hue-rotate(110deg);
-}*/
+}
 a span{
     position: absolute;
     display: block;
@@ -386,3 +400,4 @@ a span:nth-child(4){
         bottom: 100%;
     }
 }
+*/
