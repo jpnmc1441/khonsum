@@ -12,6 +12,12 @@ h1 {
   font-size: 2.8rem;
 }
 
+img01{margin:auto;
+     text-align:center;
+     max-width:300px;
+     border-radius:25px;}
+
+
 #tm-bg {
   position: fixed;
   top: 0;
